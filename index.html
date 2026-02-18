@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pollería Mendoza | Oficial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🐔 Pollería Mendoza</div>
+    <button id="cart-btn">🛒 <span id="cart-count">0</span></button>
+</header>
+
+<section class="hero">
+    <h1>Pollo fresco todos los días</h1>
+    <p>Calidad premium • Precio justo • Atención rápida</p>
+</section>
+
+<section class="productos" id="productos"></section>
+
+<!-- Overlay oscuro -->
+<div class="overlay" id="overlay"></div>
+
+<div class="cart" id="cart">
+    <div class="cart-header">
+        <h2>Tu Pedido</h2>
+        <button id="close-cart">✖</button>
+    </div>
+    <ul id="cart-items"></ul>
+    <h3>Total: $<span id="total">0</span></h3>
+    <button id="whatsapp-btn">Enviar pedido por WhatsApp</button>
+</div>
+
+
+<footer>
+    <p>© 2026 Pollería Mendoza - Sitio Oficial</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
